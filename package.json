@@ -1,3 +1,10 @@
 {
-  "packageManager": "yarn@3.2.4"
+  "packageManager": "yarn@3.2.4",
+  "homepage": "http://jazicorn.github.io/template-nodejs-full",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "scripts": {
+    "deploy:docs": "gh-pages -d docs"
+  }
 }
