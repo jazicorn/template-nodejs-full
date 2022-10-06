@@ -12,6 +12,17 @@
 
 - [Docsify Themeable](https://jhildenbiddle.github.io/docsify-themeable/#/)
 
+## Setup
+```bash
+# install docsify globally
+npm i docsify-cli -g
+```
+
+```bash
+# initialize docs subdirectory
+docsify init ./docs
+```
+
 ---
 
 ## Deployment
