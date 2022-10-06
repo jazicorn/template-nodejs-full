@@ -9,7 +9,6 @@
 - [Databases: Redis](https://render.com/docs/redis)
 
 ## [Deployment](https://render.com/docs/deploys)
-- [Deployment: Nextjs](https://render.com/docs/deploy-nextjs-app)
 - [Deployment: Docker](https://render.com/docs/docker)
 - [Deployment: ElasticSearch](https://render.com/docs/deploy-elasticsearch)
 - [Deployment: Hasura GraphQL Engine](https://render.com/docs/deploy-hasura-graphql)
