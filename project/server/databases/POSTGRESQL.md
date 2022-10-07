@@ -3,6 +3,33 @@
 
 ---
 
+## Resources
+- [postgresql: Website](https://www.postgresql.org/)
+- [postgresql: Documentation: 14.5](https://www.postgresql.org/docs/current/)
+- [postgresql: Github: awesome-postgres](https://github.com/dhamaniasad/awesome-postgres)
+- [node-postgres: Github](https://github.com/brianc/node-postgres)
+- [node-postgres: Website](https://node-postgres.com/)
+
+
+### General Articles
+- https://stackabuse.com/using-postgresql-with-nodejs-and-node-postgres/
+
+---
+
+### PostgreSQL Commands
+- **-h: --host=HOSTNAME:** *The database server host or socket directory; the default is local socket*
+- **-p: --port=PORT:** *The database server port; the default is 5432*
+- **-U: --username=USERNAME:** *The database username; the default is your_username*
+- **-w: --no-password:** *Never prompt for password*
+- **-W: --password:** *Force password prompt, which should happen automatically*
+- **\q:** *Exit psql connection*
+- **\c:** *Connect to a new database*
+- **\dt:** *List all tables*
+- **\du:** *List all roles*
+- **\list:** *List databases*
+
+---
+
 ## Local
 > local database setup
 
@@ -17,13 +44,9 @@
 brew install postgresql
 ```
 
-**Connect Your Database**
-
-- [Prisma/PostgreSQL](https://www.prisma.io/dataguide/postgresql/connecting-to-postgresql-databases)
-
 **Localhost Port:**
 ```bash
-# env DATABASE URL for: schema.prisma
+# env DATABASE URL 
 postgresql://postgres:password@localhost:####/databasename?schema=public
 ```
 
