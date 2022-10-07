@@ -1,6 +1,7 @@
 {
   "packageManager": "yarn@3.2.4",
   "homepage": "http://jazicorn.github.io/template-nodejs-full",
+   "license": "MIT",
   "scripts": {
     "test:env": "dotenv -e lib/env/.env.test.local",
     "dev:env": "dotenv -e lib/env/.env.dev.local",
