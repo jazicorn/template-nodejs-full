@@ -16,6 +16,9 @@
 *_LOCAL_*.txt
 *_REMOTE_*.txt
 
+# don't ignore docsify markdowns about logs
+!docs/developer/logs
+
 ### Node ###
 # Logs
 logs
