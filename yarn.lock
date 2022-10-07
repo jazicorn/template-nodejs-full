@@ -805,7 +805,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cross-spawn@npm:^7.0.2":
+"cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
   version: 7.0.3
   resolution: "cross-spawn@npm:7.0.3"
   dependencies:
@@ -903,6 +903,34 @@ __metadata:
   dependencies:
     esutils: ^2.0.2
   checksum: fd7673ca77fe26cd5cba38d816bc72d641f500f1f9b25b83e8ce28827fe2da7ad583a8da26ab6af85f834138cf8dae9f69b0cd6ab925f52ddab1754db44d99ce
+  languageName: node
+  linkType: hard
+
+"dotenv-cli@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "dotenv-cli@npm:6.0.0"
+  dependencies:
+    cross-spawn: ^7.0.3
+    dotenv: ^16.0.0
+    dotenv-expand: ^8.0.1
+    minimist: ^1.2.5
+  bin:
+    dotenv: cli.js
+  checksum: 3db5a363eedd24d428001a956d9b8c72094983bfe0e0e722cda7803b614daf85dde9c9beb5d9fa28a139a5c594533ecd8f9d8430a90c244175e81c9a40abc5b1
+  languageName: node
+  linkType: hard
+
+"dotenv-expand@npm:^8.0.1":
+  version: 8.0.3
+  resolution: "dotenv-expand@npm:8.0.3"
+  checksum: 128ce90ac825b543de3ece0154a51b056ab0dc36bb26d97a68cd0b8707327ecd3c182fb6ac63b26a0fcdfa85064419906a1065cb634f1f9dc08ad311375f1fc0
+  languageName: node
+  linkType: hard
+
+"dotenv@npm:^16.0.0, dotenv@npm:^16.0.3":
+  version: 16.0.3
+  resolution: "dotenv@npm:16.0.3"
+  checksum: afcf03f373d7a6d62c7e9afea6328e62851d627a4e73f2e12d0a8deae1cd375892004f3021883f8aec85932cd2834b091f568ced92b4774625b321db83b827f8
   languageName: node
   linkType: hard
 
@@ -2007,6 +2035,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"minimist@npm:^1.2.5":
+  version: 1.2.6
+  resolution: "minimist@npm:1.2.6"
+  checksum: d15428cd1e11eb14e1233bcfb88ae07ed7a147de251441d61158619dfb32c4d7e9061d09cab4825fdee18ecd6fce323228c8c47b5ba7cd20af378ca4048fb3fb
+  languageName: node
+  linkType: hard
+
 "minipass-collect@npm:^1.0.2":
   version: 1.0.2
   resolution: "minipass-collect@npm:1.0.2"
@@ -2558,6 +2593,8 @@ __metadata:
     "@types/node": ^18.8.3
     "@typescript-eslint/eslint-plugin": ^5.39.0
     "@typescript-eslint/parser": ^5.39.0
+    dotenv: ^16.0.3
+    dotenv-cli: ^6.0.0
     eslint: ^8.24.0
     eslint-config-prettier: ^8.5.0
     eslint-plugin-prettier: ^4.2.1

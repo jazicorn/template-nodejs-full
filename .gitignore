@@ -95,6 +95,7 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
+# !!!🚨!!! For security reasons, DO NOT add env files to git repositories
 .env
 .env.development.local
 .env.test.local
