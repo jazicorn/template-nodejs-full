@@ -1,16 +1,15 @@
-* [**Home**](/)
 * [**Developer**](developer/_index.md)
   * [Project Setup](developer/_SETUPDEV.md)
   * [Contributing](developer/CONTRIBUTING.md)
   * [Roadmap](developer/roadmap/_index.md)
   * [Documentation](developer/documentation/_index.md)
-    * *[Docsify](documentation/DOCSIFY.md)*
-    * *[Swagger](documentation/SWAGGER.md)*
-    * *[Version](documentation/VERSION.md)*
-    * *[Clean Code](documentation/CLEANCODE.md)*
+    * *[Docsify](developer/documentation/DOCSIFY.md)*
+    * *[Swagger](developer/documentation/SWAGGER.md)*
+    * *[Version](developer/documentation/VERSION.md)*
+    * *[Clean Code](developer/documentation/CLEANCODE.md)*
   * [Issues](developer/ISSUES.md)
   * [Logs](developer/logs/_index.md)
-* [**Project**](/developer/project/_index.md)
+* [**Project**](project/_index.md)
   * [Common](project/_common/_index.md)
     * *[Formatting](project/_common/formatting/_index.md)*
     * *[Github](project/_common/github/_index.md)*
