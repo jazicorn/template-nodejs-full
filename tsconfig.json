@@ -7,11 +7,17 @@
         "strict": true,
         "moduleResolution": "node",
         "esModuleInterop": true,
-        "types": ["node"]
+        "types": ["node"],
+        "forceConsistentCasingInFileNames": true,
+        "baseUrl": ".",
+        "noResolve": false,
+        "sourceMap": true,
+        "allowJs": true
     },
-    "include": ["src/**/*"],
+    "include": ["src/**/*.ts", "tests/**/*.ts"],
     "exclude":[
         "./node_modules",
-        "./docs"
+        "./docs",
+        ".vscode"
     ]
 }
