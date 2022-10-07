@@ -12,6 +12,7 @@
 
 - [Docsify Themeable](https://jhildenbiddle.github.io/docsify-themeable/#/)
 - [Docsify Font~Awesome](https://github.com/erickjx/docsify-fontawesome)
+- [Docsify Update Tracker](https://github.com/pfeak/docsify-updated)
 
 ### Docsify Helpers
 
@@ -110,5 +111,4 @@ docsify serve docs
 ### Production
 
 - [Deploy](https://docsify.js.org/#/deploy)
-- [gh-pages Branch Deployment](https://www.bruttin.com/2017/12/22/github-ghpages-worktree.html)
- 
+- [gh-pages Package Deployment](https://github.com/tschaub/gh-pages)
