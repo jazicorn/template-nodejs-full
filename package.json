@@ -1,7 +1,7 @@
 {
   "packageManager": "yarn@3.2.4",
   "homepage": "http://jazicorn.github.io/template-nodejs-full",
-   "license": "MIT",
+  "license": "MIT",
   "scripts": {
     "test:env": "dotenv -e lib/env/.env.test.local",
     "dev:env": "dotenv -e lib/env/.env.dev.local",
@@ -12,7 +12,7 @@
     "deploy:docs": "gh-pages -d docs"
   },
   "dependencies": {
-    "express": "^4.18.1",
+    "express": "4.18.1",
     "pg": "^8.8.0"
   },
   "devDependencies": {
