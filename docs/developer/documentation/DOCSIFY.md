@@ -11,6 +11,7 @@
 ### Docsify Plugins
 
 - [Docsify Themeable](https://jhildenbiddle.github.io/docsify-themeable/#/)
+- [Docsify Font~Awesome](https://github.com/erickjx/docsify-fontawesome)
 
 ### Docsify Helpers
 
