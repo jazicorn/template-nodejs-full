@@ -12,6 +12,77 @@
 
 - [Docsify Themeable](https://jhildenbiddle.github.io/docsify-themeable/#/)
 
+### Docsify Helpers
+
+**Important Content:**
+```markdown
+!> **Time** is money, my friend!
+```
+
+**General Tips:**
+```markdown
+?> _TODO_ unit test
+```
+
+**Set Attribute For Link:**
+```markdown
+[link](/demo ':target=_blank')
+[link](/demo2 ':target=_self')
+```
+
+**Disable Link:**
+```markown
+[link](/demo ':disabled')
+```
+
+**Image Resizing:**
+```markdown
+![logo](https://docsify.js.org/_media/icon.svg ':size=WIDTHxHEIGHT')
+![logo](https://docsify.js.org/_media/icon.svg ':size=50x100')
+![logo](https://docsify.js.org/_media/icon.svg ':size=100')
+
+<!-- Support percentage -->
+
+![logo](https://docsify.js.org/_media/icon.svg ':size=10%')
+```
+
+**Create Dropdown:**
+```markdown
+<details>
+<summary>Self-assessment (Click to expand)</summary>
+
+- Abc
+- Abc
+
+</details>
+```
+
+**Customize Class:**
+```markdown
+![logo](https://docsify.js.org/_media/icon.svg ':class=someCssClass')
+```
+
+**Customize ID:**
+```markdown
+![logo](https://docsify.js.org/_media/icon.svg ':id=someCssId')
+```
+
+**Customize ID for Heading:**
+```markdown
+### Hello, world! :id=hello-world
+```
+
+**Wrap Markdown in HTML Tag:**
+```markdown
+<div style='color: red'>
+
+- listitem
+- listitem
+- listitem
+
+</div>
+```
+
 ## Setup
 ```bash
 # install docsify globally
