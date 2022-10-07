@@ -3,11 +3,10 @@
 
 ## About
 
-...
+This project is setup using yarn PnP. To setup project [without PnP](https://yarnpkg.com/getting-started/install) or to utilize a hybrid model of PnP + node_modules, please check documentation: [PnP](https://yarnpkg.com/getting-started/recipes#typescript--pnp-quick-start).
+For this project I'm utilizing PnP because of node_modules error created by docsify ./docs folder.
 
-## Table of Contents
-
-...
+- [Yarn 2 Documentation](https://yarnpkg.com/getting-started)
 
 ## Commands
 
@@ -50,4 +49,9 @@ https://cryogenicplanet.tech/posts/typescript-monorepo
 https://preconstruct.tools/tutorials/monorepo/
 
 https://javascript.plainenglish.io/build-react-app-by-using-typescript-yarn-workspaces-webpack-and-babel-d0ad120e72d9
+
+### PnP
+
+- [Documentation: Add to Project](https://yarnpkg.com/getting-started/recipes#typescript--pnp-quick-start)
+
 
