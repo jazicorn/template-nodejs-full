@@ -265,6 +265,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"colors@npm:*":
+  version: 1.4.0
+  resolution: "colors@npm:1.4.0"
+  checksum: 98aa2c2418ad87dedf25d781be69dc5fc5908e279d9d30c34d8b702e586a0474605b3a189511482b9d5ed0d20c867515d22749537f7bc546256c6014f3ebdcec
+  languageName: node
+  linkType: hard
+
 "commander@npm:^2.18.0":
   version: 2.20.3
   resolution: "commander@npm:2.20.3"
@@ -772,6 +779,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nodeman@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "nodeman@npm:1.1.2"
+  dependencies:
+    colors: "*"
+  bin:
+    _nodeman: ./bin/_nodeman
+    nodeman: ./bin/nodeman
+  checksum: 096f2b63efbade88cd450b42a5d306cff888fac297f3bdf1caef0332a708b60366e160f84fa52c0cacdef7d2468a59ac7c9f88a619073eccc8cb51dbf2f5ed4f
+  languageName: node
+  linkType: hard
+
 "object-assign@npm:^4.0.1":
   version: 4.1.1
   resolution: "object-assign@npm:4.1.1"
@@ -935,6 +954,7 @@ __metadata:
     "@types/node": ^18.8.3
     express: ^4.18.1
     gh-pages: ^4.0.0
+    nodeman: ^1.1.2
     ts-node: ^10.9.1
     typescript: ^4.8.4
   languageName: unknown
